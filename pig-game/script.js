@@ -1,5 +1,5 @@
 'use strict';
-//Getting elements
+
 const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
 const score0El = document.getElementById('score--0');
@@ -13,7 +13,7 @@ const btnHold = document.querySelector('.btn--hold');
 
 let scores, currentScore, activePlayer, playing;
 
-//Starting
+
 
 const init = function () {
   scores = [0, 0];
